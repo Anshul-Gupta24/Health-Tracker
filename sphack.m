@@ -1,3 +1,5 @@
+% Code to Plot data
+
 a=dlmread('allcombined2.csv',',',[1 0 1000 0]);
 ay=a;
 fs=1/0.005;
