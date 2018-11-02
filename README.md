@@ -4,10 +4,13 @@
 
 #### We count steps by calculating the magnitude of the data, subtracting its mean, and then counting the number of zero crossings. We classify activity by using k-means clustering.
 
+
 #### For more details please refer to 'DSP Hackathon.pdf'.
+#### </br>
 
 ### Data
 #### 1500 samples for each activity - running, walking, jumping and climbing stairs. Stored in 'train2.mat'.
+#### </br>
 
 ### Running the Code
 #### To load the data (a(accel_x), b(accel_y), c(accel_z)), run:
