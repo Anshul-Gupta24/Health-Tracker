@@ -2,7 +2,7 @@
 
 #### Built as part of the DSP Hackathon in the course 2016-ES 105 - Signal Processing. We built a health tracking application to count steps and classify activities into running, walking, jumping and climbing from phone accelerometer data. 
 
-#### We count steps by calculating the magnitude of the data, subtracting its mean, and then counting the number of zero crossings. We classify activity by using k-means clustering.
+#### We count steps by calculating the magnitude of the data, subtracting its mean, and then counting the number of zero crossings. We classify activity by extracting time and spectral domain features followed by k-means clustering.
 
 
 #### For more details please refer to 'DSP Hackathon.pdf'.
