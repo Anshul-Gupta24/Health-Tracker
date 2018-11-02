@@ -5,6 +5,12 @@
 #### For more details please refer to 'DSP Hackathon.pdf'.
 
 ### Data
+#### 1500 samples for each activity - running, walking, jumping and climbing stairs. Stored in train2.mat
 
-
-###
+### Running the Code
+#### To load the data (a(accel_x), b(accel_y), c(accel_z)), run:
+#### `load train2.mat`
+#### To count number of steps, run:
+#### `zcd(a,b,c)`
+#### To classify activity, run:
+#### `RUN(a,b,c)`
